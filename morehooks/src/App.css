@@ -7,17 +7,33 @@
   border: 1px solid #ccc;
   border-radius: 5px;
   margin-left: 600px;
+  
 }
 
 ul {
   list-style: none;
   padding: 0;
+  background-color: bisque;
+  justify-content: space-between;
+  color: black;
 }
 
 li {
   margin-bottom: 10px;
+  
 }
 
 button {
   margin-left: 10px;
+  align-items: center;
+}
+h1{
+  text-align: center;
+}
+input{
+  margin-left: 80px;
+}
+
+.get{
+  margin-left: 100px;
 }

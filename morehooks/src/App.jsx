@@ -47,12 +47,13 @@ const TaskList = () => {
         {tasks.map((task) => (
           <li key={task.id}>
             {task.isHidden ? 'Task Hidden' : task.text}
-            <button onClick={() => toggleTask(task.id)}>Toggle</button>
+            <button class= 'task' onClick={() => toggleTask(task.id)}>Toggle</button>
+            <hr></hr>
           </li>
         ))}
       </ul>
 
-      <button onClick={focus}>Get back writing</button>
+      <button class= 'get'onClick={focus}>Get back writing</button>
     </div>
   );
 };
